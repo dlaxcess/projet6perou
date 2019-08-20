@@ -8,7 +8,7 @@
     <title>{% block title %}{% endblock %}</title>
 
     {% block stylesheets %}
-        <link rel="stylesheet" href="{{ asset('/css/styles.css') }}">
+        <link rel="stylesheet" href="{{ asset('build/citygma.css') }}">
 
     {% endblock %}
 </head>
@@ -17,6 +17,7 @@
 {# General menu #}
     {% block body %}{% endblock %}
     {% block javascripts %}
+        <script src="{{ asset('build/manifest.js') }}"></script>
         <script src="{{ asset('build/citygma.js') }}"></script>
     {% endblock %}
 </body>

@@ -17,13 +17,19 @@ Encore
      * Each entry will result in one JavaScript file (e.g. citygma.js)
      * and one CSS file (e.g. citygma.css) if your JavaScript imports CSS.
      */
-    .addEntry('citygma', './public/assets/js/citygma_entry.js')
-    .addEntry('login', './public/assets/js/login.js')
+    .addEntry('citygma', './assets/js/citygma_entry.js')
+    .addEntry('login', './assets/js/login.js')
     //.addEntry('page2', './assets/js/page2.js')
 
     .enableBuildNotifications()
 
     .autoProvidejQuery()
+    .enableSassLoader()
+
+    .copyFiles({
+        from: './assets/images',
+        to: 'images/[path][name].[hash:8].[ext]'
+    })
     // will require an extra script tag for runtime.js
     // but, you probably want this, unless you're building a single-page app
     .enableSingleRuntimeChunk()
@@ -31,8 +37,8 @@ Encore
     .cleanupOutputBeforeBuild()
     .enableSourceMaps(!Encore.isProduction())
     // enables hashed filenames (e.g. app.abc123.css)
-    .enableVersioning(Encore.isProduction())
-
+    .enableVersioning(/*Encore.isProduction()*/)
+    .enableReactPreset()
 // uncomment if you use TypeScript
 //.enableTypeScriptLoader()
 
