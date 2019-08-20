@@ -1,0 +1,33 @@
+ii  libapache2-mod-php                         1:7.2+62                                           all          server-side, HTML-embedded scripting language (Apache 2 module) (default)
+ii  libapache2-mod-php7.2                      7.2.19-0ubuntu0.18.10.1                            amd64        server-side, HTML-embedded scripting language (Apache 2 module)
+ii  php                                        1:7.2+62                                           all          server-side, HTML-embedded scripting language (default)
+ii  php-bz2                                    1:7.2+62                                           all          bzip2 module for PHP [default]
+ii  php-cli                                    1:7.2+62                                           all          command-line interpreter for the PHP scripting language (default)
+ii  php-common                                 1:62                                               all          Common files for PHP packages
+ii  php-curl                                   1:7.2+62                                           all          CURL module for PHP [default]
+ii  php-gd                                     1:7.2+62                                           all          GD module for PHP [default]
+ii  php-intl                                   1:7.2+62                                           all          Internationalisation module for PHP [default]
+ii  php-json                                   1:7.2+62                                           all          JSON module for PHP [default]
+ii  php-mbstring                               1:7.2+62                                           all          MBSTRING module for PHP [default]
+ii  php-mysql                                  1:7.2+62                                           all          MySQL module for PHP [default]
+ii  php-pear                                   1:1.10.5+submodules+notgz-1ubuntu1.18.10.1         all          PEAR Base System
+ii  php-php-gettext                            1.0.12-0.1                                         all          read gettext MO files directly, without requiring anything other than PHP
+ii  php-phpseclib                              2.0.11-1build4                                     all          implementations of an arbitrary-precision integer arithmetic library
+ii  php-tcpdf                                  6.2.13+dfsg-1ubuntu1                               all          PHP class for generating PDF files on-the-fly
+ii  php-xml                                    1:7.2+62                                           all          DOM, SimpleXML, WDDX, XML, and XSL module for PHP [default]
+ii  php-zip                                    1:7.2+62                                           all          Zip module for PHP [default]
+ii  php7.2                                     7.2.19-0ubuntu0.18.10.1                            all          server-side, HTML-embedded scripting language (metapackage)
+ii  php7.2-bz2                                 7.2.19-0ubuntu0.18.10.1                            amd64        bzip2 module for PHP
+ii  php7.2-cli                                 7.2.19-0ubuntu0.18.10.1                            amd64        command-line interpreter for the PHP scripting language
+ii  php7.2-common                              7.2.19-0ubuntu0.18.10.1                            amd64        documentation, examples and common module for PHP
+ii  php7.2-curl                                7.2.19-0ubuntu0.18.10.1                            amd64        CURL module for PHP
+ii  php7.2-gd                                  7.2.19-0ubuntu0.18.10.1                            amd64        GD module for PHP
+ii  php7.2-intl                                7.2.19-0ubuntu0.18.10.1                            amd64        Internationalisation module for PHP
+ii  php7.2-json                                7.2.19-0ubuntu0.18.10.1                            amd64        JSON module for PHP
+ii  php7.2-mbstring                            7.2.19-0ubuntu0.18.10.1                            amd64        MBSTRING module for PHP
+ii  php7.2-mysql                               7.2.19-0ubuntu0.18.10.1                            amd64        MySQL module for PHP
+ii  php7.2-opcache                             7.2.19-0ubuntu0.18.10.1                            amd64        Zend OpCache module for PHP
+ii  php7.2-readline                            7.2.19-0ubuntu0.18.10.1                            amd64        readline module for PHP
+ii  php7.2-xml                                 7.2.19-0ubuntu0.18.10.1                            amd64        DOM, SimpleXML, WDDX, XML, and XSL module for PHP
+ii  php7.2-zip                                 7.2.19-0ubuntu0.18.10.1                            amd64        Zip module for PHP
+ii  phpmyadmin                                 4:4.6.6-5                                          all          MySQL web administration tool

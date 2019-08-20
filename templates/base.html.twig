@@ -16,6 +16,8 @@
 <body>
 {# General menu #}
     {% block body %}{% endblock %}
-    {% block javascripts %}{% endblock %}
+    {% block javascripts %}
+        <script src="{{ asset('build/citygma.js') }}"></script>
+    {% endblock %}
 </body>
 </html>

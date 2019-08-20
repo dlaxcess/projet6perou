@@ -21,3 +21,11 @@
 ###> /.idea from phpstorm ###
 /.idea
 ###< /.idea from phpstorm ###
+
+###> /node_modules ###
+/node_modules/*
+###< /node_modules ###
+
+###> Build directory files by Webpack Encore ###
+/public/build/*
+###< Build directory files by Webpack Encore ###
