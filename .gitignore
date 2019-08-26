@@ -29,3 +29,9 @@
 ###> Build directory files by Webpack Encore ###
 /public/build/*
 ###< Build directory files by Webpack Encore ###
+###> symfony/webpack-encore-bundle ###
+/node_modules/
+/public/build/
+npm-debug.log
+yarn-error.log
+###< symfony/webpack-encore-bundle ###

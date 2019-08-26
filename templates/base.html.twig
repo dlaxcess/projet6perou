@@ -3,12 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="icon" type="image/png" href="{{ asset('/images/favicon.ico') }}" />
+
 
     <title>{% block title %}{% endblock %}</title>
 
     {% block stylesheets %}
-        <link rel="stylesheet" href="{{ asset('build/citygma.css') }}">
 
     {% endblock %}
 </head>
@@ -17,8 +16,7 @@
 {# General menu #}
     {% block body %}{% endblock %}
     {% block javascripts %}
-        <script src="{{ asset('build/manifest.js') }}"></script>
-        <script src="{{ asset('build/citygma.js') }}"></script>
+
     {% endblock %}
 </body>
 </html>

@@ -1,1 +1,1 @@
-module.exports =  widow.Routing;
+module.exports =  window.Routing;

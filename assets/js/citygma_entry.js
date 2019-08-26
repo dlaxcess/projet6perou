@@ -3,12 +3,12 @@ import React from 'react';
 import ReactDom from 'react-dom';
 
 import $ from 'jquery';
-import citygmaApp from './Components/citygmaApp';
+/*import CitygmaApp from './Components/CitygmaApp';*/
 
-class citygma_entry extends React.Component {
+class Citygma_entry extends React.Component {
     render() {
         return <h2>Lift Stuff! <span>❤️</span></h2>;
     }
 }
 
-ReactDom.render(<citygma_entry/>, document.getElementById('enygma'));
+ReactDom.render(<Citygma_entry/>, document.getElementById('enygma'));
