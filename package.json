@@ -4,7 +4,7 @@
     "@symfony/webpack-encore": "^0.28.0",
     "eslint": "^6.2.1",
     "eslint-plugin-react": "^7.14.3",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "node-sass": "^4.12.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
